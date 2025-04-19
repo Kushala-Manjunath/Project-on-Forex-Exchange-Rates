@@ -1,1 +1,1 @@
-Foexr Exchange Rates
+Forex Exchange Rates
