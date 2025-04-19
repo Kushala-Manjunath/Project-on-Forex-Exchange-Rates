@@ -6,14 +6,20 @@ The project explores the modeling and forecasting of the EUR/USD exchange rate u
 •	Statistical Models: ARMA models of varying orders, including SARIMAX configurations and high-order lag structures.
 
 •	Deep Learning Models:
+
  •	Simple dense networks
+ 
  •	LSTM-based Recurrent Neural Networks (RNNs)
+ 
  •	Convolutional Neural Networks (CNNs)
+ 
  •	Facebook’s Prophet model
 
  ## Key Findings
  •	Statistical models: High-order ARMA models provided reasonable fits but did not significantly outperform the random walk in out-of-sample tests.
+ 
  •	Deep learning models: Despite modeling long-term dependencies, most architectures underperformed the baseline random walk model.
+ 
  •	Best performer: Facebook’s Prophet model outperformed other deep learning models but still fell short of beating the random walk.
 
 ## Conclusion
